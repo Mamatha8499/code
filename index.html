@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Output</title>
+    <meta name="description" content="Rendered output as a simple website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Website Output</h1>
+        <p class="subtitle">This page renders the output as a website.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2 class="card-title">Output</h2>
+        <div id="output" class="output-area" aria-live="polite">
+          Loading...
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>Served locally. Customize `index.html`, `styles.css`, and `script.js`.</small>
+      </div>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
